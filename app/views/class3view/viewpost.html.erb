@@ -1,0 +1,6 @@
+<h1> Read Post </h1>
+<p>User ID: <%= @user_id %></p>
+<% for x in @res do%>
+<p> Created At <%= x.created_at %> </p> 
+<h1><b> Message -> <%= x.msg %> <- </b></h1>
+<% end %>
